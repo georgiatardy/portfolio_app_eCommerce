@@ -13,7 +13,7 @@ import App from './components/App';
 import BaseLayout from './components/BaseLayout';
 import Contact from './components/Contact';
 import Home from './components/Home';
-import Artwork from './components/Artwork';
+import Paintings from './components/Paintings';
 import Blog from './components/Blog';
 
 ReactDOM.render(
@@ -23,7 +23,7 @@ ReactDOM.render(
         <Route path="/Blog" component={Blog} />
         <Route path="/Contact" component={Contact} />
         <Route path="/About" component={About} />
-        <Route path="/Artwork" component={Artwork} />
+        <Route path="/Paintings" component={Paintings} />
         <Route path="/Home" component={Home} />
         <Route exact path="/" component={App} />
      </Switch>
