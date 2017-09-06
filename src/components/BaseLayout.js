@@ -13,8 +13,9 @@ export default class BaseLayout extends Component {
         <header>
            <img id="logo" src={GTA_logo} alt="" />
            <div className="link"><NavLink to="/About">About</NavLink></div>
-           <div className="link"><NavLink to="/Home">Home</NavLink></div>
+           <div className="link"><NavLink to="/Drawings">Drawings</NavLink></div>
            <div className="link"><NavLink to="/Paintings">Paintings</NavLink></div>
+           <div className="link"><NavLink to="/Designs">Designs</NavLink></div>
            <div className="link"><NavLink to="/Contact">Contact</NavLink></div>
            <div className="link"><NavLink to="/Blog">Blog</NavLink></div>
         </header>

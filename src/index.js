@@ -8,11 +8,12 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
 
-import About from './components/About';
 import App from './components/App';
 import BaseLayout from './components/BaseLayout';
+import About from './components/About';
 import Contact from './components/Contact';
-import Home from './components/Home';
+import Designs from './components/Designs';
+import Drawings from './components/Drawings';
 import Paintings from './components/Paintings';
 import Blog from './components/Blog';
 
@@ -24,7 +25,8 @@ ReactDOM.render(
         <Route path="/Contact" component={Contact} />
         <Route path="/About" component={About} />
         <Route path="/Paintings" component={Paintings} />
-        <Route path="/Home" component={Home} />
+        <Route path="/Drawings" component={Drawings} />
+        <Route path="/Designs" component={Designs} />
         <Route exact path="/" component={App} />
      </Switch>
     </BaseLayout>
