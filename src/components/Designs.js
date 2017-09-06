@@ -12,7 +12,7 @@ export default class Design extends Component {
     return (
 
       <div className="design">
-      <h1 className="design_header">Drawings</h1>
+      <h1 className="design_header">Graphic Design</h1>
         <img id="Design_1" src={Design_1} alt="" />
         <br></br>
         <img id="Design_2" src={Design_2} alt="" />
