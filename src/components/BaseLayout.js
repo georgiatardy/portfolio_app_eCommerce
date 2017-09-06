@@ -14,7 +14,7 @@ export default class App extends Component {
            <img id="logo" src={GTA_logo} alt="" />
            <div className="link"><NavLink to="/About">About Georgia Tardy Art</NavLink></div>
            <div className="link"><NavLink to="/Home">Home</NavLink></div>
-           <div className="link"><NavLink to="/Products">Products</NavLink></div>
+           <div className="link"><NavLink to="/Artwork">Artwork</NavLink></div>
            <div className="link"><NavLink to="/Contact">Contact</NavLink></div>
            <div className="link"><NavLink to="/Blog">Blog</NavLink></div>
         </header>
