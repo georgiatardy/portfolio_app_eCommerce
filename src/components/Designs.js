@@ -1,13 +1,24 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
+import Design_1 from '../styles/Images/Design/Design_1.jpg';
+import Design_2 from '../styles/Images/Design/Design_2.jpg';
+import Design_3 from '../styles/Images/Design/Design_3.jpg';
 
-export default class Designs extends Component {
+
+export default class Design extends Component {
 
   render() {
     return (
 
-      <h1>This is your Designs Page</h1>
+      <div className="design">
+      <h1 className="design_header">Drawings</h1>
+        <img id="Design_1" src={Design_1} alt="" />
+        <br></br>
+        <img id="Design_2" src={Design_2} alt="" />
+        <br></br>
+        <img id="Design_2" src={Design_3} alt="" />
+      </div>
 
 
     );

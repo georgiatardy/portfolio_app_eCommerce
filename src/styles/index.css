@@ -42,6 +42,35 @@ h1 {
   margin-right: 150px;
 }
 
+/*Drawing Page*/
+
+.drawings {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.drawings_header {
+  text-align: inherit;
+}
+
+
+/*Design Page*/
+
+.design {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.design_header {
+  text-align: inherit;
+}
+
+
+
 /*Contact Page*/
 
 .contact_page {
@@ -49,20 +78,8 @@ h1 {
   margin-left: 110px;
 }
 
-/*References Page*/
 
-.references_info {
-  margin-left: 110px;
-}
-
-/*Portfolio Page*/
-
-.skills {
-  margin-left: 120px;
-}
-
-
-/*Artwork Page*/
+/*Painting Page*/
 
 .paintings {
   display: flex;
