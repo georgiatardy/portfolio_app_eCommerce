@@ -17,6 +17,17 @@
       <img id="WL_2" src={Woman_Lotus_2} alt="" />
       <br></br>
       <img id="WL_3" src={Woman_Lotus_3} alt="" />
+
+      <section className="painting_info">
+        <div className="email">
+          <h3>Abstract Painting</h3>
+          <p>Acrylic Paint on Wood Panel</p>
+          <p>Price: $200</p>
+          <p>12 in x 12 in</p>
+        </div>
+
+     </section>
+
     </div>
    )
   }

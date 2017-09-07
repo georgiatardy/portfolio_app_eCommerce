@@ -18,14 +18,23 @@ export default class Design extends Component {
                 <img id="Design_2" src={Design_2} alt="" />
                 <br></br>
                 <img id="Design_2" src={Design_3} alt="" />
+
+                <section className="design_info">
+                  <div className="email">
+                    <h3>Graphic Illustrations</h3>
+                    <p>Vector Art</p>
+                    <p>Price: $200</p>
+                  </div>
+
+               </section>
+
+
+
+
+
+
               </div>
 
       )
     }
   }
-
-
-
-
-
-    
