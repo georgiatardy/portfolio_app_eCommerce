@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import {Link} from 'react-router-dom';
+
 
 
 import Woman_Lotus_1 from '../styles/Images/Paintings/Woman_Lotus_1.jpg';

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+
 
 import Design_1 from '../styles/Images/Design/Design_1.jpg';
 import Design_2 from '../styles/Images/Design/Design_2.jpg';

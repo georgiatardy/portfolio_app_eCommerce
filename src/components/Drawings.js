@@ -17,7 +17,9 @@ export default class Drawings extends Component {
         <img id="Drawing_2" src={Drawing_2} alt="" />
         <br></br>
         <img id="Drawing_2" src={Drawing_3} alt="" />
-      </div>
+     </div>
+
+
 
     );
   }
